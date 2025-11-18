@@ -13,5 +13,5 @@
 
 - **Step 3 – Negative cycles**  
   On some generated graphs, Bellman–Ford detects negative cycles.  
-  From a mathematical perspective, this implies that no well-defined shortest path exists between source and target: the algorithm could traverse the negative cycle infinitely many times, pushing the path cost towards \(-\infty\).  
+  From a mathematical perspective, this implies that no well-defined shortest path exists between source and target: the algorithm could traverse the negative cycle infinitely many times, pushing the path cost towards infinity.  
   In these cases, the instance is classified as “no shortest path (negative cycle)”.
