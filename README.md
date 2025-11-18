@@ -1,9 +1,5 @@
 # CI2025_lab3
-### Handling negative edge weights
 
-First, I tested Dijkstra and A* on a subset of parameter settings. As soon as negative edge weights appeared, both algorithms failed to compute valid shortest paths, so I switched to the Bellman–Ford algorithm for those cases.
-
-However, on some graphs Bellman–Ford encounters negative cycles. From a mathematical point of view, this means that no finite shortest path exists: the algorithm could keep traversing the negative cycle indefinitely, driving the total cost towards negative infinity. In such cases, we treat the shortest path as undefined.
 
 
 ### Behavior with negative edge weights
