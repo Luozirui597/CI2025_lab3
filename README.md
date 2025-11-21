@@ -49,6 +49,7 @@ problem = create_problem(
     negative_values=False,  # must be non-negative for Dijkstra
     seed=42,
 )
+```
 
 results = all_pairs_dijkstra_with_handwritten(problem)
 
