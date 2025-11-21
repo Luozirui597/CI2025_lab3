@@ -101,11 +101,11 @@ the same random seed.
 Paths and costs match exactly (path_match = True, cost_diff = 0).
 However, the handwritten A* is slower than NetworkX on larger graphs.
 For example:
-```text
-size=50: my_time ≈ 1.2–1.7 ms,   nx_time ≈ 0.07–0.11 ms
-size=100: my_time ≈ 3.4–4.1 ms,  nx_time ≈ 0.06–0.12 ms
-```
+    ```text
+    size=50: my_time ≈ 1.2–1.7 ms,   nx_time ≈ 0.07–0.11 ms
+    size=100: my_time ≈ 3.4–4.1 ms,  nx_time ≈ 0.06–0.12 ms
+    ```
 
-So, the handwritten implementations are correct and useful to
-understand the algorithms, while NetworkX remains more efficient
-for larger instances, especially for A*.
+    So, the handwritten implementations are correct and useful to
+    understand the algorithms, while NetworkX remains more efficient
+    for larger instances, especially for A*.
